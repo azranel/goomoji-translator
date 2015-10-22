@@ -6,7 +6,7 @@ module GoomojiTranslator
     def initialize
       file_path = File.absolute_path(File.dirname(__FILE__))
       codes_list ||= begin
-        codes = File.read("#{file_path}/../files/#{GOOMOJI_CODES_FILE_NAME}")
+        codes = File.read("#{file_path}/../../files/#{GOOMOJI_CODES_FILE_NAME}")
         codes.split("\n")
       end
 
