@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'goomoji-translator'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2015-10-22'
   s.summary     = "Goomoji translator"
   s.description = "Gem that allows to translate old google emoticon codes into UTF8 emoji codes."
