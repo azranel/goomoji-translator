@@ -23,7 +23,6 @@ to install this gem alone
 ## How to use
 
 ```ruby
-translator = GoomojiTranslator.new
-translator.find_by_goomoji_code("1A6")
+GoomojiTranslator.find_by_goomoji_code("1A6")
 => "1F473"
 ```
