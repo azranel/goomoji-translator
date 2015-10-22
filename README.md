@@ -9,7 +9,7 @@ This gem can be used for translating old codes that were used for google emotico
 Add to gemfile
 
 ```ruby
-gem 'goomoji_translator'
+gem 'goomoji-translator'
 ```
 and do `bundle install` or 
 
